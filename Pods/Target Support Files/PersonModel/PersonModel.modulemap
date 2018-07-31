@@ -1,0 +1,6 @@
+framework module PersonModel {
+  umbrella header "PersonModel-umbrella.h"
+
+  export *
+  module * { export * }
+}

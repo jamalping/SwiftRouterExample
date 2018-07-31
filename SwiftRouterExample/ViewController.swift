@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import XPRouter
+import PersonModel
+import HomeModel
 
 class ViewController: UIViewController {
 
@@ -19,7 +22,4 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
-

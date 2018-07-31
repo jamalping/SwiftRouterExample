@@ -1,0 +1,6 @@
+framework module Pods_SwiftRouterExampleUITests {
+  umbrella header "Pods-SwiftRouterExampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

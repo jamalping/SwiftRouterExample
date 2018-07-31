@@ -1,0 +1,6 @@
+framework module HomeModel {
+  umbrella header "HomeModel-umbrella.h"
+
+  export *
+  module * { export * }
+}

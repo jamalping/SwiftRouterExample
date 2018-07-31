@@ -8,8 +8,10 @@
 
 import XCTest
 
+// swiftlint:disable trailing_whitespace
+// swiftlint:disable line_length
 class SwiftRouterExampleUITests: XCTestCase {
-        
+    
     override func setUp() {
         super.setUp()
         
