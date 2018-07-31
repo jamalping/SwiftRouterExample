@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -109,7 +109,7 @@
 		10CB435ECC41C9FB8F9341D55297C226 /* LoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = PersonModel/Classes/LoginViewController.swift; sourceTree = "<group>"; };
 		12366F924514A8A74322C39C0350CA8B /* ModuleLifeCycleEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleLifeCycleEntry.swift; path = XPRouter/Classes/ModuleLifeCycleEntry.swift; sourceTree = "<group>"; };
 		13C99DA228C68DBCF8B195BF8F4F383C /* XPRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPRouter-prefix.pch"; sourceTree = "<group>"; };
-		168F211E88E1D8CD78C4F45C62C2059F /* XPRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XPRouter.framework; path = XPRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		168F211E88E1D8CD78C4F45C62C2059F /* XPRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XPRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C1BECEA7F8BDE1EFD8CF0CFCBC1F19 /* URLRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLRouter.swift; path = XPRouter/Classes/URLRouter.swift; sourceTree = "<group>"; };
 		189DEB23473DB5EDB5DFD8F4347EE971 /* Pods-SwiftRouterExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftRouterExampleUITests.modulemap"; sourceTree = "<group>"; };
 		1BC22996E2F5EE650E8402A2C7BECD38 /* Pods-SwiftRouterExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftRouterExampleUITests-dummy.m"; sourceTree = "<group>"; };
@@ -131,16 +131,16 @@
 		57655565ED180114AEB5FD505D51648C /* XPRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XPRouter-dummy.m"; sourceTree = "<group>"; };
 		580BAFF44179F5447B78C271C6EC92BE /* PersonModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PersonModel.xcconfig; sourceTree = "<group>"; };
 		5C0414448370D9A45680C9C1A8621A15 /* ModuleRegister.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleRegister.swift; path = XPRouter/Classes/ModuleRegister.swift; sourceTree = "<group>"; };
-		5C7359F328A393CC4E72C9E8705432B4 /* HomeModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HomeModel.framework; path = HomeModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C7359F328A393CC4E72C9E8705432B4 /* HomeModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HomeModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DF520867D23A678480E21516DEB2C8 /* URLConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLConvertible.swift; path = XPRouter/Classes/URLConvertible.swift; sourceTree = "<group>"; };
 		6378F0D436209AB960C322D93E35D310 /* PersonModelEntrance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PersonModelEntrance.swift; path = PersonModel/Classes/PersonModelEntrance.swift; sourceTree = "<group>"; };
-		64C2509CBAE436C13794CF31B65D6FCC /* PersonModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PersonModel.framework; path = PersonModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C2509CBAE436C13794CF31B65D6FCC /* PersonModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PersonModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67BE4E0E079629E5ACB9EEDD6D0FAC1B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		686ACE7B07D07C286456D002E169EB66 /* Pods-SwiftRouterExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftRouterExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7B4F435DEDD967EB8C1EAE92F5D0EE08 /* Pods-SwiftRouterExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftRouterExampleUITests-umbrella.h"; sourceTree = "<group>"; };
 		7C6D359F03EFF8F22B3122D181F743BB /* HomeModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HomeModel-umbrella.h"; sourceTree = "<group>"; };
 		7EC59E06DC6F14D329875D6C9B44F2F9 /* URLMatchResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLMatchResult.swift; path = XPRouter/Classes/URLMatchResult.swift; sourceTree = "<group>"; };
-		80FA07E0B49C76D208E1223F5B07AB60 /* Pods_SwiftRouterExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftRouterExample.framework; path = "Pods-SwiftRouterExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FA07E0B49C76D208E1223F5B07AB60 /* Pods_SwiftRouterExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftRouterExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AB0E5355DCFC58CA29DD8885D22BBF /* URLRouterType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLRouterType.swift; path = XPRouter/Classes/URLRouterType.swift; sourceTree = "<group>"; };
 		876B6CF2EA1D305F109F52A438286FEF /* ModuleContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleContext.swift; path = XPRouter/Classes/ModuleContext.swift; sourceTree = "<group>"; };
 		88630174C378A445F3096ACE744D4F89 /* Pods-SwiftRouterExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftRouterExample-resources.sh"; sourceTree = "<group>"; };
@@ -148,7 +148,7 @@
 		8B8642677FADFFFA3AED820F784A5FC1 /* HomeModelEntrance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HomeModelEntrance.swift; path = HomeModel/Classes/HomeModelEntrance.swift; sourceTree = "<group>"; };
 		8CF07418A731DF1A1835B4F863BDCFB4 /* XPRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XPRouter.modulemap; sourceTree = "<group>"; };
 		914A8EE17310DC559C2237DB2DEB5C77 /* Pods-SwiftRouterExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftRouterExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95337578C1BBA11E9475468CAD299078 /* Pods-SwiftRouterExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftRouterExampleTests-umbrella.h"; sourceTree = "<group>"; };
 		9A85800C809837E05A8C5BCE91B7C288 /* Pods-SwiftRouterExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftRouterExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9F3128191D4745EF34445236D18DB121 /* UIViewControllerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewControllerType.swift; path = XPRouter/Classes/UIViewControllerType.swift; sourceTree = "<group>"; };
@@ -161,7 +161,7 @@
 		AA834F746C4E06EA20E3C551A9895540 /* PersonModelPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PersonModelPath.swift; path = PersonModel/Classes/PersonModelPath.swift; sourceTree = "<group>"; };
 		B195BEB886C5D45593A75E85CE32E8D9 /* XPRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XPRouter.xcconfig; sourceTree = "<group>"; };
 		B21BC395059D4F75EA9E5B7D8DF98078 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B744DB4BFC3B2E5AF0B089BC3612828A /* Pods_SwiftRouterExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftRouterExampleUITests.framework; path = "Pods-SwiftRouterExampleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B744DB4BFC3B2E5AF0B089BC3612828A /* Pods_SwiftRouterExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftRouterExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86E83DD3D11CA93DEE0818AAF73E311 /* ModuleMediatorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleMediatorType.swift; path = XPRouter/Classes/ModuleMediatorType.swift; sourceTree = "<group>"; };
 		B9F8F13546C43A15FC88B5C29ADDCB67 /* Pods-SwiftRouterExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftRouterExample-frameworks.sh"; sourceTree = "<group>"; };
 		BD7A24F79291174A010BA334B809273F /* Pods-SwiftRouterExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftRouterExampleTests-dummy.m"; sourceTree = "<group>"; };
@@ -182,7 +182,7 @@
 		DCF8EFA8EF6500853C7F925B61849FB7 /* URLPathComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLPathComponent.swift; path = XPRouter/Classes/URLPathComponent.swift; sourceTree = "<group>"; };
 		DF4CCA5F9019BB648E5A80A306BA6AA9 /* URLMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLMatcher.swift; path = XPRouter/Classes/URLMatcher.swift; sourceTree = "<group>"; };
 		E4B80EA23270458A45793543C6579712 /* Pods-SwiftRouterExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftRouterExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F0F86C73A36F20AB2936AB81690ECD47 /* Pods_SwiftRouterExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftRouterExampleTests.framework; path = "Pods-SwiftRouterExampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F86C73A36F20AB2936AB81690ECD47 /* Pods_SwiftRouterExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftRouterExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F76E98CE9BD67151BBA6884E5D65D4 /* Pods-SwiftRouterExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftRouterExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		F864D476C43AFEDB8415405E8364B570 /* HomeModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HomeModel.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -257,7 +257,6 @@
 				26B38ED4E16F0C6FAC77B986271A9A83 /* XPRouterPath.swift */,
 				E3C0B9141AB5EBA4219B9E269118B245 /* Support Files */,
 			);
-			name = HomeModel;
 			path = HomeModel;
 			sourceTree = "<group>";
 		};
@@ -387,7 +386,6 @@
 				84AB0E5355DCFC58CA29DD8885D22BBF /* URLRouterType.swift */,
 				90D9C4555299AF0B860618889C8555F6 /* Support Files */,
 			);
-			name = XPRouter;
 			path = XPRouter;
 			sourceTree = "<group>";
 		};
@@ -399,7 +397,6 @@
 				AA834F746C4E06EA20E3C551A9895540 /* PersonModelPath.swift */,
 				6ED5DBF1CED9B62B605A96130C21DCA2 /* Support Files */,
 			);
-			name = PersonModel;
 			path = PersonModel;
 			sourceTree = "<group>";
 		};
@@ -618,7 +615,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 0940;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -780,11 +777,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftRouterExampleUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftRouterExampleUITests/Pods-SwiftRouterExampleUITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -818,11 +811,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftRouterExampleTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftRouterExampleTests/Pods-SwiftRouterExampleTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -856,11 +845,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftRouterExampleTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftRouterExampleTests/Pods-SwiftRouterExampleTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -895,11 +880,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftRouterExample/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftRouterExample/Pods-SwiftRouterExample.modulemap";
 				OTHER_LDFLAGS = "";
@@ -997,11 +978,7 @@
 				INFOPLIST_FILE = "Target Support Files/XPRouter/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/XPRouter/XPRouter.modulemap";
 				PRODUCT_MODULE_NAME = XPRouter;
 				PRODUCT_NAME = XPRouter;
@@ -1033,11 +1010,7 @@
 				INFOPLIST_FILE = "Target Support Files/PersonModel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PersonModel/PersonModel.modulemap";
 				PRODUCT_MODULE_NAME = PersonModel;
 				PRODUCT_NAME = PersonModel;
@@ -1071,11 +1044,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftRouterExampleUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftRouterExampleUITests/Pods-SwiftRouterExampleUITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1109,11 +1078,7 @@
 				INFOPLIST_FILE = "Target Support Files/XPRouter/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/XPRouter/XPRouter.modulemap";
 				PRODUCT_MODULE_NAME = XPRouter;
 				PRODUCT_NAME = XPRouter;
@@ -1146,11 +1111,7 @@
 				INFOPLIST_FILE = "Target Support Files/HomeModel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HomeModel/HomeModel.modulemap";
 				PRODUCT_MODULE_NAME = HomeModel;
 				PRODUCT_NAME = HomeModel;
@@ -1184,11 +1145,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftRouterExample/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftRouterExample/Pods-SwiftRouterExample.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1260,6 +1217,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -1281,11 +1239,7 @@
 				INFOPLIST_FILE = "Target Support Files/PersonModel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PersonModel/PersonModel.modulemap";
 				PRODUCT_MODULE_NAME = PersonModel;
 				PRODUCT_NAME = PersonModel;
@@ -1317,11 +1271,7 @@
 				INFOPLIST_FILE = "Target Support Files/HomeModel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HomeModel/HomeModel.modulemap";
 				PRODUCT_MODULE_NAME = HomeModel;
 				PRODUCT_NAME = HomeModel;

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Service.ServiceModule</string>
+	<string>AKShopping.AKShoppingModule</string>
+	<string>PersonModel.ALYLoginMockModule</string>
+	<string>AKMyOrders.AKOrderRouter</string>
+	<string>AKChatMessage.AKChatMessageModule</string>
+	<string>AKFlashSale.FlashSaleRouter</string>
+	<string>AKCommonWebView.AKCommonWebViewModule</string>
+	<string>HomeModel.HomeModuleEntry</string>
+	<string>AKCreditOld.CreditOldModule</string>
+	<string>AKNewsCenter.NewsCenterModule</string>
+	<string>AKMyBills.MyBillsRouter</string>
+</array>
+</plist>

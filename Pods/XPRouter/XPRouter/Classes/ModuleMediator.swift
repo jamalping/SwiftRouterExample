@@ -1,8 +1,8 @@
 //
 //  ModuleMediator.swift
-//  AKRouter
+//  XPRouter
 //
-//  Created by shayuan on 2018/5/23.
+//  Created by jamalping on 2018/5/23.
 //
 
 // swiftlint:disable line_length
@@ -63,6 +63,10 @@ extension ModuleMediator: ModuleMediatorType {
 // MARK: ModuleLifeCycleDelegate
 extension ModuleMediator: ModuleLifeCycleProtocol {
 
+    public func load() {
+        ModuleRegister.runOnce()
+    }
+    
     public func initialize() {
         modules.forEach { $0.initialize?() }
     }

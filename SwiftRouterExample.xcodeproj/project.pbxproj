@@ -10,6 +10,7 @@
 		33A6274C9F04922EB43AB342 /* Pods_SwiftRouterExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6620F9F47702F3E57FBF4760 /* Pods_SwiftRouterExampleTests.framework */; };
 		367F9CD289C66FC6FBB49186 /* Pods_SwiftRouterExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF3CDAA8C06D94C1FB9E2C8 /* Pods_SwiftRouterExampleUITests.framework */; };
 		D5FB3946A455CB64E120CB68 /* Pods_SwiftRouterExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F470CE88104BE069FF8CAF9 /* Pods_SwiftRouterExample.framework */; };
+		FB05C1AA21106AB40048CBA2 /* ModuleMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB05C1A921106AB40048CBA2 /* ModuleMap.plist */; };
 		FBDBAA5B210EA08F00A9BD13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDBAA5A210EA08F00A9BD13 /* AppDelegate.swift */; };
 		FBDBAA5D210EA08F00A9BD13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDBAA5C210EA08F00A9BD13 /* ViewController.swift */; };
 		FBDBAA60210EA08F00A9BD13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDBAA5E210EA08F00A9BD13 /* Main.storyboard */; };
@@ -59,6 +60,7 @@
 		968AC17827895B517D8F0014 /* Pods-SwiftRouterExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftRouterExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftRouterExampleTests/Pods-SwiftRouterExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		BED616D6C9336A9084A8AE70 /* Pods-SwiftRouterExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftRouterExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftRouterExampleTests/Pods-SwiftRouterExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EDBDFD0D5993812D291C661C /* Pods-SwiftRouterExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftRouterExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftRouterExample/Pods-SwiftRouterExample.release.xcconfig"; sourceTree = "<group>"; };
+		FB05C1A921106AB40048CBA2 /* ModuleMap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ModuleMap.plist; sourceTree = "<group>"; };
 		FBDBAA57210EA08F00A9BD13 /* SwiftRouterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRouterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBDBAA5A210EA08F00A9BD13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBDBAA5C210EA08F00A9BD13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 		FBDBAA4E210EA08F00A9BD13 = {
 			isa = PBXGroup;
 			children = (
+				FB05C1A921106AB40048CBA2 /* ModuleMap.plist */,
 				FBDBAA59210EA08F00A9BD13 /* SwiftRouterExample */,
 				FBDBAA6E210EA09100A9BD13 /* SwiftRouterExampleTests */,
 				FBDBAA79210EA09200A9BD13 /* SwiftRouterExampleUITests */,
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBDBAA65210EA09100A9BD13 /* LaunchScreen.storyboard in Resources */,
+				FB05C1AA21106AB40048CBA2 /* ModuleMap.plist in Resources */,
 				FBDBAA62210EA09100A9BD13 /* Assets.xcassets in Resources */,
 				FBDBAA60210EA08F00A9BD13 /* Main.storyboard in Resources */,
 			);

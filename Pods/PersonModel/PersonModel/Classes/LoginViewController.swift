@@ -7,13 +7,15 @@
 
 import Foundation
 // swiftlint:disable trailing_whitespace
-class LoginViewController: UIViewController {
+public class LoginViewController: UIViewController {
     
     var paramters: [String: Any]?
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .white
         
+        title = "login"
     }
     
     /// 输出 paramters
