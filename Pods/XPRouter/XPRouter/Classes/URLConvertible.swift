@@ -6,7 +6,6 @@
 //
 
 import Foundation
-// swiftlint:disable trailing_whitespace
 
 /// url的便利类型
 public protocol URLConvertible {
@@ -73,3 +72,4 @@ extension URL: URLConvertible {
         return self.absoluteString
     }
 }
+

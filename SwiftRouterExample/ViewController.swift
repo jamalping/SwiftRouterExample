@@ -35,8 +35,13 @@ class ViewController: UIViewController {
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
-        let loginVC = LoginViewController()
-        self.navigationController?.pushViewController(loginVC, animated: true)
+        
+        
+        
+        router.push(LoginPath.referral.generate("1"))
+        
+//        let loginVC = LoginViewController()
+//        self.navigationController?.pushViewController(loginVC, animated: true)
     }
     
     override func didReceiveMemoryWarning() {

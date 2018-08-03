@@ -5,8 +5,8 @@
 //  Created by jamalping on 2018/5/23.
 //
 import UIKit
+
 // swiftlint:disable line_length
-// swiftlint:disable trailing_whitespace
 
 public let router = URLRouter.shared
 
@@ -33,6 +33,8 @@ open class URLRouter: URLRouterType {
     open func handle(_ pattern: URLPattern, _ factory: @escaping URLOpenHandlerFactory) {
         self.handlerFactories[pattern] = factory
     }
+    
+    
     /// 根据URL返回UIViewController
     ///
     /// - Parameters:
@@ -49,6 +51,7 @@ open class URLRouter: URLRouterType {
         guard let factory = self.viewControllerFactories[match.pattern] else { return nil }
         return factory(url, match.values, context)
     }
+    
     /// 根据URL返回URLOpenHandler
     ///
     /// - Parameters:
@@ -69,6 +72,7 @@ open class URLRouter: URLRouterType {
 
 // MARK: - 调用的方法
 extension URLRouter {
+    
     /// 根据url push一个UIViewController
     ///
     /// - Parameters:
@@ -94,6 +98,7 @@ extension URLRouter {
     public func push(_ viewController: UIViewController, from: UINavigationControllerType? = nil, animated: Bool = true) -> UIViewController? {
         return self.pushViewController(viewController, from: from, animated: animated)
     }
+    
     /// 根据url present一个UIViewController
     ///
     /// - Parameters:
@@ -108,6 +113,7 @@ extension URLRouter {
     public func present(_ url: URLConvertible, context: Any? = nil, wrap: UINavigationController.Type? = nil, from: UIViewControllerType? = nil, animated: Bool = true, completion: (() -> Void)? = nil) -> UIViewController? {
         return self.presentURL(url, context: context, wrap: wrap, from: from, animated: animated, completion: completion)
     }
+    
     /// present一个UIViewController
     ///
     /// - Parameters:
@@ -122,6 +128,7 @@ extension URLRouter {
     public func present(_ viewController: UIViewController, wrap: UINavigationController.Type? = nil, from: UIViewControllerType? = nil, animated: Bool = true, completion: (() -> Void)? = nil) -> UIViewController? {
         return self.presentViewController(viewController, wrap: wrap, from: from, animated: animated, completion: completion)
     }
+    
     /// 打开一个url，调用handle方法
     ///
     /// - Parameters:
@@ -133,3 +140,4 @@ extension URLRouter {
         return self.openURL(url, context: context)
     }
 }
+

@@ -5,7 +5,7 @@
 //  Created by jamalping on 2018/5/23.
 //
 import UIKit
-// swiftlint:disable trailing_whitespace
+
 public protocol URLRouterDelegate: class {
     /// 返回router是否应该push这个viewController,默认返回true
     func shouldPush(viewController: UIViewController, from: UINavigationControllerType) -> Bool
@@ -23,3 +23,4 @@ extension URLRouterDelegate {
         return true
     }
 }
+

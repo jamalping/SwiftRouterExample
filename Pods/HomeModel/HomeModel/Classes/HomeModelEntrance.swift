@@ -9,10 +9,11 @@ import Foundation
 import XPRouter
 
 public class HomeModelEntrance: ModuleLifeCycleEntry {
+    
     public func initialize() {
         router.register(HomePath.home
         ) { (url, parameters, content) -> UIViewController? in
-            let vvc = UIViewController()
+            let vvc = HomeViewController()
             return vvc 
         }
     }

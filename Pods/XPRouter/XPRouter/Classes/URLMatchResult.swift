@@ -6,7 +6,6 @@
 //
 
 import Foundation
-// swiftlint:disable trailing_whitespace
 
 ///  URL 匹配.
 public struct URLMatchResult {

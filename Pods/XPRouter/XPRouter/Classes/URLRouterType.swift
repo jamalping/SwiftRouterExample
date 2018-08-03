@@ -6,8 +6,7 @@
 //
 
 import UIKit
-// swiftlint:disable line_length
-// swiftlint:disable trailing_whitespace
+
 public typealias URLPattern = String
 public typealias ViewControllerFactory = (_ url: URLConvertible, _ values: [String: Any], _ context: Any?) -> UIViewController?
 public typealias URLOpenHandlerFactory = (_ url: URLConvertible, _ values: [String: Any], _ context: Any?) -> Bool
@@ -68,7 +67,9 @@ public protocol URLRouterType {
     func openURL(_ url: URLConvertible, context: Any?) -> Bool
 }
 
+
 // MARK: - 实现
+
 extension URLRouterType {
     public func viewController(for url: URLConvertible) -> UIViewController? {
         return self.viewController(for: url, context: nil)
@@ -121,3 +122,5 @@ extension URLRouterType {
         return handler()
     }
 }
+
+

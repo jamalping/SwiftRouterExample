@@ -7,8 +7,6 @@
 
 import Foundation
 
-// swiftlint:disable trailing_whitespace
-
 enum URLPathComponent {
     case plain(String)
     case placeholder(type: String?, key: String)

@@ -6,7 +6,6 @@
 //
 
 import Foundation
-// swiftlint:disable trailing_whitespace
 
 public enum URLParamType {
     case string(String)
@@ -55,6 +54,6 @@ extension URLPattern {
     
     // GET类型请求的配置
     func generateGet(_ params: [String: Any]) -> String {
-        return self + "?" + params.map { $0 + "=" + String(describing: $1) }.joined(separator: "&")
+        return self + "?" + params.map{ $0 + "=" + String(describing: $1) }.joined(separator: "&")
     }
 }

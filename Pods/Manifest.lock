@@ -3,12 +3,12 @@ PODS:
     - XPRouter (~> 1.0.0)
   - PersonModel (0.1.1):
     - XPRouter (~> 1.0.0)
-  - XPRouter (1.0.0)
+  - XPRouter (1.0.1)
 
 DEPENDENCIES:
   - HomeModel
   - PersonModel
-  - XPRouter (= 1.0.0)
+  - XPRouter (= 1.0.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -19,8 +19,8 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   HomeModel: 7baf1509dd0ee1c5dbeb2e61c27c5256d179e44c
   PersonModel: 97bd536509475e9104fc970a8bef94a6f2eb643b
-  XPRouter: 5baa3ed494acaa2671fed0ab141839f97b8bb351
+  XPRouter: 36a2fd87a952b3038e5d625a3ef7daea41e70bf0
 
-PODFILE CHECKSUM: e799353036d405c54749b89c12b9b2647b4dd482
+PODFILE CHECKSUM: c5c9f1598fc6a6f079310f2418e18be798c5948c
 
 COCOAPODS: 1.5.3

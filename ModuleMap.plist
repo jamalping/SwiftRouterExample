@@ -4,12 +4,12 @@
 <array>
 	<string>Service.ServiceModule</string>
 	<string>AKShopping.AKShoppingModule</string>
-	<string>PersonModel.ALYLoginMockModule</string>
+	<string>PersonModel.PersonModelEntrance</string>
 	<string>AKMyOrders.AKOrderRouter</string>
 	<string>AKChatMessage.AKChatMessageModule</string>
 	<string>AKFlashSale.FlashSaleRouter</string>
 	<string>AKCommonWebView.AKCommonWebViewModule</string>
-	<string>HomeModel.HomeModuleEntry</string>
+	<string>HomeModel.HomeModelEntrance</string>
 	<string>AKCreditOld.CreditOldModule</string>
 	<string>AKNewsCenter.NewsCenterModule</string>
 	<string>AKMyBills.MyBillsRouter</string>

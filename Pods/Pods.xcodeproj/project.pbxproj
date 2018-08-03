@@ -50,6 +50,7 @@
 		E22CF31B0C33ADAA33C707CC82EC2398 /* PersonModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A9B09E0E698B37F25CF16CE20EE172 /* PersonModel-dummy.m */; };
 		F9DBA1067A8F95379AC937AAA2ADB7C8 /* HomeModelEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8642677FADFFFA3AED820F784A5FC1 /* HomeModelEntrance.swift */; };
 		FA72A12623ED6660113E2472482EF23E /* XPRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A491FAFED8EE52B3D7D10CA356B9F0A7 /* XPRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB05C1AC2113F4D80048CBA2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB05C1AB2113F4D80048CBA2 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,6 +186,7 @@
 		F0F86C73A36F20AB2936AB81690ECD47 /* Pods_SwiftRouterExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftRouterExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F76E98CE9BD67151BBA6884E5D65D4 /* Pods-SwiftRouterExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftRouterExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		F864D476C43AFEDB8415405E8364B570 /* HomeModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HomeModel.modulemap; sourceTree = "<group>"; };
+		FB05C1AB2113F4D80048CBA2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +255,7 @@
 		31E6E1E51B33348AF0566E82865DF2E0 /* HomeModel */ = {
 			isa = PBXGroup;
 			children = (
+				FB05C1AB2113F4D80048CBA2 /* HomeViewController.swift */,
 				8B8642677FADFFFA3AED820F784A5FC1 /* HomeModelEntrance.swift */,
 				26B38ED4E16F0C6FAC77B986271A9A83 /* XPRouterPath.swift */,
 				E3C0B9141AB5EBA4219B9E269118B245 /* Support Files */,
@@ -615,7 +618,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -663,6 +666,7 @@
 				50975F23727C5B87185A7594D70C6A28 /* HomeModel-dummy.m in Sources */,
 				F9DBA1067A8F95379AC937AAA2ADB7C8 /* HomeModelEntrance.swift in Sources */,
 				12C13F6D5C3A9DC38D6425D7042366B4 /* XPRouterPath.swift in Sources */,
+				FB05C1AC2113F4D80048CBA2 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1217,7 +1221,6 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;

@@ -6,7 +6,7 @@ target 'SwiftRouterExample' do
   use_frameworks!
 
   # Pods for SwiftRouterExample
-  pod 'XPRouter', '1.0.0'
+  pod 'XPRouter', '1.0.1'
   pod 'PersonModel'
   pod 'HomeModel'
 #  pod 'SwiftLint'

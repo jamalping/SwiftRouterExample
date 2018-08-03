@@ -6,7 +6,6 @@
 //
 
 import UIKit
-// swiftlint:disable trailing_whitespace
 
 extension UIViewController {
     private class var sharedApplication: UIApplication? {
@@ -63,3 +62,4 @@ extension UIViewController {
         return viewController
     }
 }
+

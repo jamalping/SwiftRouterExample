@@ -7,7 +7,6 @@
 
 import Foundation
 
-// swiftlint:disable trailing_whitespace
 
 /// URLMatcher是符合规则的URLConvertible检索器
 open class URLMatcher {
@@ -57,7 +56,7 @@ open class URLMatcher {
     open func match(_ url: URLConvertible, from candidates: [URLPattern]) -> URLMatchResult? {
         let url = self.normalizeURL(url)
         let scheme = url.urlValue?.scheme
-        let stringPathComponents = self.stringPathComponents(from: url)
+        let stringPathComponents = self.stringPathComponents(from :url)
         
         for candidate in candidates {
             guard scheme == candidate.urlValue?.scheme else { continue }
@@ -112,8 +111,7 @@ open class URLMatcher {
     
     func replaceRegex(_ pattern: String, _ repl: String, _ string: String) -> String {
         guard let regex = try? NSRegularExpression(pattern: pattern, options: []) else { return string }
-        let range = NSRange.init(location: 0, length: string.count)
-
+        let range = NSMakeRange(0, string.count)
         return regex.stringByReplacingMatches(in: string, options: [], range: range, withTemplate: repl)
     }
     

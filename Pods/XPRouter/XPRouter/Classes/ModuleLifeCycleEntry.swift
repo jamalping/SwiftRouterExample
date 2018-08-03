@@ -13,3 +13,4 @@ open class ModuleLifeCycleEntry: NSObject, ModuleLifeCycleProtocol {
         super.init()
     }
 }
+

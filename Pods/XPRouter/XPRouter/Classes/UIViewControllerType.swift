@@ -17,3 +17,4 @@ public protocol UIViewControllerType {
 
 extension UINavigationController: UINavigationControllerType {}
 extension UIViewController: UIViewControllerType {}
+

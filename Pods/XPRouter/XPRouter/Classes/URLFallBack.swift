@@ -6,7 +6,7 @@
 //
 
 import Foundation
-// swiftlint:disable trailing_whitespace
+
 public protocol URLFallBackType: URLFallBackPluginType {
     func appendFallBack(_ url: URLPattern)
     func containsFallBack(_ url: URLPattern) -> Bool
@@ -15,6 +15,7 @@ public protocol URLFallBackType: URLFallBackPluginType {
 public protocol URLFallBackPluginType {
     func handleFallBack(_ url: URLPattern)
 }
+
 
 public class URLFallBack: URLFallBackType {
    
@@ -35,6 +36,6 @@ public class URLFallBack: URLFallBackType {
     }
     
     public func handleFallBack(_ url: URLPattern) {
-        plugins.forEach { $0.handleFallBack(url) }
+        plugins.forEach{ $0.handleFallBack(url) }
     }
 }

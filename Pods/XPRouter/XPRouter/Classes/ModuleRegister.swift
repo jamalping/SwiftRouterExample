@@ -6,7 +6,7 @@
 //
 
 import Foundation
-// swiftlint:disable trailing_whitespace
+
 
 private let mapName = "ModuleMap"
 
@@ -29,3 +29,4 @@ public final class ModuleRegister: NSObject {
         }   
     }
 }
+
