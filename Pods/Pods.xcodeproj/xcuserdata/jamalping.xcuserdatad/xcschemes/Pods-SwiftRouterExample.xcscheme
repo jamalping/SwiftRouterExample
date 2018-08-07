@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B02914915231ACDA737BC0BB26360B1"
+               BlueprintIdentifier = "7C1AE239A1177EC438078AF78A67F3A8"
                BuildableName = "Pods_SwiftRouterExample.framework"
                BlueprintName = "Pods-SwiftRouterExample"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B02914915231ACDA737BC0BB26360B1"
+            BlueprintIdentifier = "7C1AE239A1177EC438078AF78A67F3A8"
             BuildableName = "Pods_SwiftRouterExample.framework"
             BlueprintName = "Pods-SwiftRouterExample"
             ReferencedContainer = "container:Pods.xcodeproj">

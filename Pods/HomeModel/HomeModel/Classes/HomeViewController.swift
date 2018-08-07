@@ -7,6 +7,7 @@
 
 import Foundation
 import XPRouter
+import XPRouterPath
 
 class HomeViewController: UIViewController {
     
@@ -16,11 +17,11 @@ class HomeViewController: UIViewController {
         title = "home"
     }
     
-    
-    public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         
-//        router.open("ak://login/login")
-        router.open("ak://login/login", context: "test")
+        router.open(LoginPath.login, context: "test")
+        
+        self.navigationController?.popViewController(animated: true)
     }
 }

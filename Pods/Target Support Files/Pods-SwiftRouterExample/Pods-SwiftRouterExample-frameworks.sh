@@ -146,11 +146,13 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/HomeModel/HomeModel.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PersonModel/PersonModel.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XPRouter/XPRouter.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/XPRouterPath/XPRouterPath.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/HomeModel/HomeModel.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PersonModel/PersonModel.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XPRouter/XPRouter.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/XPRouterPath/XPRouterPath.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

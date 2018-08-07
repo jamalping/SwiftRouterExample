@@ -7,14 +7,15 @@
 
 import Foundation
 import XPRouter
+import XPRouterPath
 
 public class HomeModelEntrance: ModuleLifeCycleEntry {
-    
     public func initialize() {
+        
         router.register(HomePath.home
         ) { (url, parameters, content) -> UIViewController? in
-            let vvc = HomeViewController()
-            return vvc 
+            let vc = HomeViewController()
+            return vc 
         }
     }
 }

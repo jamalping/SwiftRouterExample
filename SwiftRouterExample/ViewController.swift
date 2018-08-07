@@ -10,6 +10,7 @@ import UIKit
 import XPRouter
 import PersonModel
 import HomeModel
+import XPRouterPath
 
 //
 //let fff = Load.classinitialize()
@@ -35,8 +36,6 @@ class ViewController: UIViewController {
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
-        
-        
         
         router.push(LoginPath.referral.generate("1"))
         

@@ -7,29 +7,26 @@
 
 import Foundation
 import XPRouter
-// swiftlint:disable trailing_whitespace
-public class LoginViewController: UIViewController {
+import XPRouterPath
+
+class LoginViewController: UIViewController {
     
-    var paramters: [String: Any]?
+    var paramters: [String : Any]?
     
-    var result: String?
-    
-    public override func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
         
         title = "login"
-    }
-    
-    /// 输出 paramters
-    func printParamters() {
-        print("输出 paramters", paramters ?? [:])
     }
     
     public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         
-        router.push("ak://home")
+        router.push(HomePath.home)
     }
     
+    /// 输出 paramters
+    func printParamters() -> Void {
+        print("输出 paramters",paramters ?? [:])
+    }
 }

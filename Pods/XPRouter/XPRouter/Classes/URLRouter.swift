@@ -6,8 +6,6 @@
 //
 import UIKit
 
-// swiftlint:disable line_length
-
 public let router = URLRouter.shared
 
 open class URLRouter: URLRouterType {
